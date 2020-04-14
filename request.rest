@@ -1,0 +1,24 @@
+GET http://localhost:3000/dogs
+
+###
+
+POST http://localhost:3000/dogs
+Content-Type: application/json 
+
+{
+    "id": 4,
+    "breed": "Golden Retriver",
+    "age": 13
+}
+
+###
+
+PUT http://localhost:3000/dogs/1
+Content-Type: application/json 
+
+{ 
+    "breed": "jdjdj",
+    "age": 11
+}
+
+

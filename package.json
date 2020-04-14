@@ -19,7 +19,9 @@
   "homepage": "https://github.com/elinalm/Rest-api#readme",
   "keywords": [],
   "dependencies": {
-    "expres": "0.0.5"
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {}
 }
