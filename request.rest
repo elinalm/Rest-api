@@ -21,4 +21,8 @@ Content-Type: application/json
     "age": 11
 }
 
+###
+
+DELETE http://localhost:3000/dogs/1
+
 
