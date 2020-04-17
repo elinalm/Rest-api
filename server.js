@@ -25,6 +25,16 @@ app.get('/dogs/', (req, res) => {
     res.json(dogs)
 })
 
+app.get('/dogs/:id', (req, res) => {
+       
+    const foundDog = dogs.find(d => d.id == req.params.id) 
+        if(!foundDog) {
+            return res.status(404).send()
+        } 
+
+    res.send(foundDog)
+})
+
 app.post('/dogs/', (req, res) => {
     dogs.push(req.body)
     res.status(201)
