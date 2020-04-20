@@ -1,8 +1,10 @@
 # Rest-api
 
-Väkommen till min server! 
-Jag har skapat ett objekt som innehåller tre hundar med namn, ras och ålder. 
+Github repo: https://github.com/elinalm/Rest-api
 
+Väkommen till min server! 
+
+Jag har skapat ett objekt som innehåller tre hundar med namn, ras och ålder. 
 För att sätta igång servern använder du terminalen och skriver node server.js och och går sedan till request.rest. Börja med att hämta hela listan av hundar via Get-anropet, och sen genom att trycka på POST så lägger du till en hund i listan, med PUT ändrar du en hunds namn och ålder och genom DELETE raderar du en hund från listan. 
 Genom att använda localhost:3000 i url:en går det att få upp alla hundarna och sedan söka efter en specifik hund. Alternativ 1,2,3 finns att söka på.   
 
