@@ -2,9 +2,9 @@
 
 Väkommen till min server! 
 Jag har skapat ett objekt som innehåller tre hundar med namn, ras och ålder. 
-I rest-filen kan du hämta listan med hundar, lägga till en ny hund i listan, ändra ras och ålder på en hund i listan 
-och radera en hund från listan.
-I logic.js går det att få upp alla hundarna och sedan söka efter en specifik hund. Alternativ 1,2,3 finns att söka på.  
+
+För att sätta igång servern använder du terminalen och skriver node server.js och och går sedan till request.rest. Börja med att hämta hela listan av hundar via Get-anropet, och sen genom att trycka på POST så lägger du till en hund i listan, med PUT ändrar du en hunds namn och ålder och genom DELETE raderar du en hund från listan. 
+Genom att använda localhost:3000 i url:en går det att få upp alla hundarna och sedan söka efter en specifik hund. Alternativ 1,2,3 finns att söka på.   
 
 I mitt Rest-api har jag uppfyllt dessa krav: 
 - Projektet innehåller minst 4 st. endpoints (GET, POST, PUT & DELETE för en resurs)
