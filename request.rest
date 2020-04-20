@@ -17,12 +17,12 @@ PUT http://localhost:3000/dogs/1
 Content-Type: application/json 
 
 { 
-    "breed": "jdjdj",
+    "breed": "Golden doodle",
     "age": 11
 }
 
 ###
 
-DELETE http://localhost:3000/dogs/1
+DELETE http://localhost:3000/dogs/3
 
 
